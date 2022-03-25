@@ -1,0 +1,22 @@
+{
+    "name": "funarbe/module-informacoesembalar",
+    "description": "Salva informa\u00e7\u00f5es da caixa, bolsa, congelados e observa\u00e7\u00f5es inseridas na embalagem do produto.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Funarbe\\InformacoesEmbalar\\": ""
+        }
+    }
+}
